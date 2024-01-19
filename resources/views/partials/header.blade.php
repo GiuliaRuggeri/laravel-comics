@@ -1,7 +1,9 @@
 <header>
     <nav class="navbar p-0">
         <div class="container">
-            <img src="../assets/img/dc-logo.png" class="navbar-brand logo">
+            <a href="/">
+             <img src="../assets/img/dc-logo.png" class="navbar-brand logo">
+            </a>
             <form class="d-flex" role="search">
                 <ul class="navbar-nav d-flex flex-row">
                     @foreach (config("data.links") as $link)
